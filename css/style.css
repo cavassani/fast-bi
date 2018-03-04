@@ -1,0 +1,86 @@
+
+html, body {
+    height: 100%;
+}
+.fill-height {
+    min-height: 100%;
+    height:auto !important; /* cross-browser */
+    height: 100%; /* cross-browser */
+}
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(28, 91, 226, 0.719);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backface-visibility: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: rgb(255, 254, 254);
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.brand {
+    font-weight: bold;
+}
+
+/*
+ * INTRO SITE 
+ */
+.container-x {
+    height: calc(100% - 48px);
+    overflow-y: hidden; /* don't show content that exceeds my height */
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.image-intro {
+    height: 100%;
+    overflow-y: auto; /* a value of 'scroll' will force scrollbars, even if they aren't necessary. This is cleaner.*/
+    background-image: url(../img/startup.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.text-intro{
+    color: #fff;
+}
+.mt-5-x, .my-5-x {
+    margin-top: 13rem!important;
+}
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
