@@ -60,6 +60,16 @@ html, body {
 .mt-5-x, .my-5-x {
     margin-top: 13rem!important;
 }
+/* SERVICES SECTION */
+.margin-section {
+  margin-top:5em;
+  margin-bottom: 5em;
+}
+.title-section {
+  color:blue;
+  margin-bottom: 1em;
+}
+
 
 /*
  * Extra utilities
