@@ -70,7 +70,15 @@ html, body {
   margin-bottom: 1em;
 }
 
-
+/*
+* SOLUTIONS
+*/
+.solutions
+{
+  background-color: #cdd5ff;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
 /*
  * Extra utilities
  */
