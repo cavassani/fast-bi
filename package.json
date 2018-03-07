@@ -1,0 +1,27 @@
+{
+  "name": "fast-bi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cavassani/fast-bi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cavassani/fast-bi/issues"
+  },
+  "homepage": "https://github.com/cavassani/fast-bi#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "inputmask": "^3.3.11",
+    "jquery": "^3.3.1",
+    "npm": "^5.7.1",
+    "popper.js": "^1.12.9"
+  }
+}

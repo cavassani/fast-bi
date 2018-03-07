@@ -7,7 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  
+    
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -29,7 +32,7 @@
       </div>
     </nav>
 
-    <!-- SESSÃO FAST BI -->
+    <!--  FAST BI intro -->
     <div class="container-x">  
       <div class="image-intro">
         <div class="text-intro col-md-5 p-lg-5 mx-auto my-5-x text-center">
@@ -40,7 +43,7 @@
       </div>
     </div>
 
-    <!-- SESSÃO SERVIÇOS --> 
+    <!--  SERVIÇOS --> 
     <div class="services margin-section">
       <div class="container">
         <h1 class="title-section text-uppercase font-weight-normal text-center display-6">Serviços</h1>
@@ -66,7 +69,7 @@
           <div class="card text-center border-primary">
             <img class="card-img-top" src="img/service-icons/hosting_service.svg" alt="Card image cap">
             <div class="card-body">
-              <h4 class="card-title">Manutenção de Servidores</h4>
+              <h4 class="card-title">Gerenciamento de Serviços</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
@@ -74,12 +77,12 @@
       </div>
     </div>
 
-    <!-- SESSÃO  SOLUÇÕES -->
+    <!--   SOLUÇÕES -->
     <div class="solutions margin-section">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div class="">
+            <div class="pentahoo-margin">
               <a href="www.pentaho.com/" target="_blank">
                 <img src="img/solutions/logo-pentaho.png" alt="Lights" style="width:100%">
               </a>
@@ -105,107 +108,200 @@
       </div>
 
     </div>
-    <!-- SESSÃO SOBRE NÓS -->
+    <!--  SOBRE NÓS -->
     <div class="about-us margin-section">
       <div class="container">
-          <h1 class="title-section text-uppercase font-weight-normal text-center display-6">Sobre nós</h1>
+        <h1 class="title-section text-uppercase font-weight-normal text-center display-6">Sobre nós</h1>
         <div class="row">
           <div class=" ">
             <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
           </div>
         </div>
+        <div>
+          <div class="row">
+            <div class="col-lg-4 p-3">
+              <h3>Missão</h3>
+              <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum.</p>
+              <p><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalMission">...</button></p>
+            </div>
+            <div class="col-lg-4 p-3">
+              <h3>Visão</h3>
+              <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum.</p>
+              <p><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalVision">...</button></p>
+            </div>
+            <div class="col-lg-4 p-3">
+              <h3>Valores</h3>
+              <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum.</p>
+              <p><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalValues">...</button></p>
+            </div>
+          </div>
+        </div>
       </div>
 
+      <!-- Modal`s -->
+      <div class="modal fade" id="modalMission" tabindex="-1" role="dialog" aria-labelledby="modalMissionLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalMissionLabel">Missão</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                insira seu texto aqui
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
 
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="modal fade" id="modalVision" tabindex="-1" role="dialog" aria-labelledby="modalVisionLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalVisionLabel">Visão</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                insira seu texto aqui
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
 
-      
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modalValues" tabindex="-1" role="dialog" aria-labelledby="modalValuesLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalValuesLabel">Valores</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                insira seu texto aqui
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 
-    <!-- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Punny headline</h1>
-        <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
-        <a class="btn btn-outline-primary" href="#">Coming soon</a>
-      </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
-      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div> 
-    </div>
+    <!--  EQUIPES -->
+    <div class="team margin-section">
+      <div class="container">
+        <h1 class="title-section text-uppercase font-weight-normal text-center display-6">Equipe</h1>
+        <div class="row">
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+          <div class="col-lg-4 offset-lg-4 ">
+            <img class="rounded-circle" src="img/team/ronan.jpg" alt="Ronan" width="140" height="140">
+            <h2>Ronan Anacleto</h2>
+            <h5><span class="badge badge-secondary">Desenvolvedor Chefe</span> </h5> 
+            <p>sobre o ronan blablablasblalalbalblablablasbblablablasbblablablasbbl</p>
+            <a href="https://www.facebook.com"> <i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a>
+          </div>
+
         </div>
-        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
     </div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+    <!--CONTATOS -->
+    <div class="contact margin-section">
+
+    
+      <div  class="container p-3">
+        <div class="col-md-8 p-3 offset-lg-2  col-sm-12 col-12 border rounded " style="background:#f1f1f1;">
+          <h2 class="mb-3 text-center">Contato</h2>
+          <hr>
+          <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-8 mb-3">
+                  <label for="Name">Nome</label>
+                  <input type="text" class="form-control" id="Name" placeholder="nome"  required>
+                  <div class="invalid-feedback">
+                    Por favor digite seu nome.
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="phone">Telefone</label>
+                  <input type="text" class="form-control" id="phone" placeholder="Tel."  required>
+                  <div class="invalid-feedback">
+                    por favor digite seu telefone.
+                  </div>
+                </div>
+
+                <div class="col-md-8 mb-3">
+                    <label for="email">E-mail</label>
+                    <input type="text" class="form-control" id="E-mail" placeholder="E-mail"  required>
+                    <div class="invalid-feedback">
+                      Por favor digite seu e-mail.
+                    </div>
+                </div>
+                <div class="input-group col-md-4 mb-3">
+                    <div class="form-group">
+                        <label class="text-inverse" for="select-menu">Motivo de Contato</label>
+                        <select class="custom-select d-block form-control" id="image" required>
+                          <option value="">Selecione um item</option>
+                          <option value="Orçamento">Orçamento</option>
+                          <option value="Visita">Visita</option>
+                          <option value="Outro">Outro</option>
+                        </select>
+                        <div class="invalid-feedback">
+                        Por favor selecione uma opção de motivo de contato.
+                        </div>
+                      </div> 
+                
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Mensagem</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                  <div class="invalid-feedback">
+                      Escreva uma mensagem.
+                    </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Aceito termos e condições
+                  </label>
+                  <div class="invalid-feedback">
+                    Voçê deve aceitar para enviar a mensagem.
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="text-center">
+                <button class="btn btn-outline-primary bt-lg" type="submit" style="width: 10em;">Enviar</button>
+              </div>
+           
+            </form>
+            
         </div>
-        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
-      <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
+
     </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-    </div> -->
-
 
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+          <small class="d-block mb-3 text-muted">&copy; 2018</small>
         </div>
         <div class="col-6 col-md">
           <h5>Features</h5>
@@ -254,15 +350,38 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/inputmask/dist/jquery.inputmask.bundle.js"></script>
+    <script src="./node_modules/inputmask/dist/inputmask/phone-codes/phone.js"></script>
+    <script src="./node_modules/inputmask/dist/inputmask/phone-codes/phone-be.js"></script>
+    <script src="./node_modules/inputmask/dist/inputmask/phone-codes/phone-ru.js"></script>
+
     <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
+      $(document).ready(function(){
+        $(":input").inputmask();
+        $("#phone").inputmask({"mask": "(99) 99999-9999"});
       });
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
     </script>
   </body>
 </html>

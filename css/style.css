@@ -79,6 +79,27 @@ html, body {
   padding-bottom: 2em;
   padding-top: 2em;
 }
+.pentahoo-margin {
+  margin-top:1em;
+}
+
+/*
+* CONTACT
+*/
+
+.contact {
+  background-color: rgb(201, 230, 255);
+  /* background-image: url(../img/contact.jpg) ;
+
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  backface-visibility: saturate(180%) blur(20px); */
+}
 /*
  * Extra utilities
  */
@@ -98,6 +119,9 @@ html, body {
     -ms-flex: 1;
     -webkit-box-flex: 1;
     flex: 1;
+  }
+  .mvs {
+    max-width: 20rem;
   }
 }
 
