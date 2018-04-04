@@ -18,30 +18,51 @@ if($name != null && $email != null && $message != null){
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)) 
     {
         $signal = 'bad';
-        $msg = 'Por favor COiloque um e-mail válido';
+        $msg = 'Por favor Coloque um e-mail válido';
     }
     else{// Passing `true` enables exceptions
         $mail = new PHPMailer(true);  
     //Server settings
     $mail->SMTPDebug = 0;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-    $mail->SMTPOptions = array(
-                    'ssl' => array(
-                        'verify_peer' => false,
-                        'verify_peer_name' => false,
-                        'allow_self_signed' => true
-                    )
-                );
+    $mail->Host = 'host.superdominiosparking.org';  // Specify main and backup SMTP servers
+    // $mail->SMTPOptions = array(
+    //                 'ssl' => array(
+    //                     'verify_peer' => false,
+    //                     'verify_peer_name' => false,
+    //                     'allow_self_signed' => true
+    //                 )
+    //             );
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'marceloscavassani@gmail.com';                 // SMTP username
-    $mail->Password = 'ax5bty77@google';                           // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 587;                                    // TCP port to connect to
+    $mail->Username = 'contato@fastbi.com.br';                 // SMTP username
+    $mail->Password = '16061993Rr';                           // SMTP password
+    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 465;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('marceloscavassani@gmail.com', $name);
-    $mail->addAddress('ronan.anacletolopes@gmail.com', 'ronancito');     // Add a recipient
+    $mail->setFrom('contato@fastbi.com.br', $name);
+    $mail->addAddress('contato@fastbi.com.br', 'ronancito');     // Add a recipient
+
+    // $mail->SMTPDebug = 0;                                 // Enable verbose debug output
+    // $mail->isSMTP();                                      // Set mailer to use SMTP
+    // $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+    // $mail->SMTPOptions = array(
+    //                 'ssl' => array(
+    //                     'verify_peer' => false,
+    //                     'verify_peer_name' => false,
+    //                     'allow_self_signed' => true
+    //                 )
+    //             );
+    // $mail->SMTPAuth = true;                               // Enable SMTP authentication
+    // $mail->Username = 'marceloscavassani@gmail.com';                 // SMTP username
+    // $mail->Password = 'ax5bty77@google';                           // SMTP password
+    // $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+    // $mail->Port = 587;                                    // TCP port to connect to
+
+    // //Recipients
+    // $mail->setFrom('marceloscavassani@gmail.com', $name);
+    // $mail->addAddress('marceloscavassani@gmail.com', 'ronancito');     // Add a recipient
+
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
