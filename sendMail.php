@@ -114,7 +114,7 @@ if($name != null && $email != null && $message != null){
 }
 else{
 $signal = 'bad';
-$msg = 'por favor preencha todos os campos.';
+$msg =  'Erro: ' .$mail->ErrorInfo;
 }
 $data = array(
 'signal' => $signal,

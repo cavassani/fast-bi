@@ -361,7 +361,6 @@
 
         $('#formcontact').on('submit', function(event){
           event.preventDefault();
-          console.log('caraio')
           $.ajax({
               dataType: 'JSON',
               url: 'sendMail.php',
@@ -387,7 +386,7 @@
                 }
               },
               error: function(){
-                $('#msg').html('<div class="alert alert-danger"> Por favor, tente novamente mais tarde.</div>');
+                $('#msg').html('<div class="alert alert-danger">'+ response['msg'] +'</div>');
               },
               complete: function(){
                 $('#btn-send').html('Mensagem Enviada');
