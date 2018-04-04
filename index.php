@@ -228,7 +228,7 @@
         <div class="col-md-8 p-3 offset-lg-2  col-sm-12 col-12 border rounded xxx " style="background:#f1f1f1;">
           <h2 class="mb-3 text-center">Contato</h2>
           <hr>
-          <form id="formcontact" class="needs-validation"  method="post" action="enviaEmail.php" novalidate>
+          <form id="formcontact" class="needs-validation"  novalidate>
             <div class="form-row">
               <div class="col-md-8 mb-3">
                 <label for="Name">Nome</label>
@@ -355,7 +355,7 @@
    
     </script>
 
-    <!-- <script>
+    <script>
        /* global $ */
       $(document).ready(function(){
 
@@ -394,6 +394,6 @@
             });
         });
       });
-    </script> -->
+    </script>
   </body>
 </html>
