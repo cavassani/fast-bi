@@ -41,7 +41,7 @@ if($name != null && $email != null && $message != null){
 
     //Recipients
     $mail->setFrom('contato@fastbi.com.br', $name);
-    $mail->addAddress('contato@fastbi.com.br', 'ronancito');     // Add a recipient
+    $mail->addAddress('marceloscavassani@gmail.com', 'ronancito');     // Add a recipient
 
     // $mail->SMTPDebug = 0;                                 // Enable verbose debug output
     // $mail->isSMTP();                                      // Set mailer to use SMTP

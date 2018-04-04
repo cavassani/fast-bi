@@ -386,7 +386,7 @@
                 }
               },
               error: function(){
-                $('#msg').html('<div class="alert alert-danger">ocorreu um erro, tente mais tarde.'</div>');
+                $('#msg').html('<div class="alert alert-danger">ocorreu um erro, tente mais tarde.</div>');
               },
               complete: function(){
                 $('#btn-send').html('Mensagem Enviada');
