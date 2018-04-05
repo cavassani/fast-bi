@@ -38,9 +38,17 @@
     <div class="container-x">  
       <div class="image-intro">
         <div class="text-intro col-md-5 p-lg-5 mx-auto my-5-x text-center">
-          <h1 class="intro-company-name text-uppercase display-4 font-weight-normal">FAST BI!</h1>
+          <!-- <h1 class="intro-company-name text-uppercase display-4 font-weight-normal">FAST BI!</h1>
           <p class="lead font-weight-normal">Fast Business Intelligence</p>
-          <a class="btn btn-outline-primary" href="#">Em breve</a>
+          <a class="btn btn-outline-primary" href="#">Em breve</a> -->
+          <a  id="chevron-sector"href="#services">
+            <div class=" col-md-10 offset-md-5  col-lg-10 offset-lg-5 chevron-margin-top">
+              <div class="chevron"></div>
+              <div class="chevron"></div>
+              <div class="chevron"></div>
+            </div>
+            <span class="text-chevron">Saiba mais</span>
+          </a>
         </div>
       </div>
     </div>
@@ -317,7 +325,7 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./node_modules/inputmask/dist/jquery.inputmask.bundle.js"></script>
     <script>
-      $('.nav a[href^="#"]').on('click', function(e) {
+      $(' a[href^="#"]').on('click', function(e) {
 
         var id = $(this).attr('href'),
         targetOffset = $(id).offset().top;
@@ -356,7 +364,7 @@
     </script>
 
     <script>
-       /* global $ */
+       /* script  de envio de e-mail, chamando o  config do phpmailer no sendMail.php via ajax*/
       $(document).ready(function(){
 
         $('#formcontact').on('submit', function(event){
