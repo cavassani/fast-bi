@@ -1,4 +1,10 @@
+/*
+azul mais claro = #e6f8ff
+Azul: #00AFEF (CMYK: C: 100 M:0 Y:0 K:0)
+Preto: #373435 (CMYK C:0 M:0 Y:0 K:100)
+azul rgb : rgba(0, 175, 239, 0.72)
 
+*/
 html, body {
     height: 100%;
 }
@@ -16,7 +22,7 @@ html, body {
  */
 
 .site-header {
-  background-color: rgba(28, 91, 226, 0.719);
+  background-color: rgba(0, 175, 239, 0.72);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backface-visibility: saturate(180%) blur(20px);
 }
@@ -156,7 +162,7 @@ html, body {
 
 }
 .title-section {
-  color:blue;
+  color:#373435;
   margin-bottom: 1em;
 }
 
@@ -178,7 +184,8 @@ html, body {
 */
 
 .contact {
-  background-color: rgb(201, 230, 255);
+  /*background-color: rgb(201, 230, 255);*/
+  background-color: #e6f8ff;
   /* background-image: url(../img/contact.jpg) ;
 
   background-repeat: no-repeat;

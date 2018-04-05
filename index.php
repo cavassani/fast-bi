@@ -62,30 +62,102 @@
             <img class="card-img-top" src="assets/img/service-icons/target_audience.svg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Consultoria Gerencial</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
+              <p class="card-text">Nossa empresa presta assistência ao gestores na elaboração de KPIs, definição de métricas e gráficos.</p>
             </div>
+            <div class="card-footer text-muted">
+            <a class="btn btn-outline-primary" data-toggle="modal" data-target="#modalConsultoria">Saiba mais</a>
+             </div>
           </div>
 
           <div class="card text-center border-primary" >
             <img class="card-img-top" src="assets/img/service-icons/se_bench.svg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Ferramentas Analíticas</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Desenvolvimento soluções tecnológicas que auxiliem na gestão da informação de sua empresa.</p>
 
             </div>
+            <div class="card-footer text-muted">
+            <a class="btn btn-outline-primary" data-toggle="modal" data-target="#modalFerramenta">Saiba mais</a>
+             </div>
           </div>
 
           <div class="card text-center border-primary">
             <img class="card-img-top" src="assets/img/service-icons/hosting_service.svg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Gerenciamento de Serviços</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Contamos com profissionais responsáveis que prestarão auxílio às empresas quanto as suas necessidades de Servidores.</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a class="btn btn-outline-primary" data-toggle="modal" data-target="#modalGerencia">Saiba mais</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+     <!-- Modal`s Serviços-->
+     <div class="modal fade" id="modalConsultoria" tabindex="-1" role="dialog" aria-labelledby="modalConsultoriaLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalConsultoriaLabel">Consultoria Gerencial</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Nossa empresa presta assistência ao gestores na elaboração de KPIs, definição de métricas e gráficos. Possuímos consultores terceirizados na área de gestão da Produtividade, capaz de auxiliar a alcançar suas metas.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
+
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="modal fade" id="modalFerramenta" tabindex="-1" role="dialog" aria-labelledby="modalFerramentaLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalFerramentaLabel">Ferramentas Analíticas</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Desenvolvimento soluções tecnológicas que auxiliem na gestão da informação de sua empresa, fornecendo de forma rápida e clara todo o conhecimento necessário para tomadas de decisões certeiras.
+</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modalGerencia" tabindex="-1" role="dialog" aria-labelledby="modalGerenciaLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalGerencia">Gerenciamento de Serviços</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Contamos com profissionais responsáveis que prestarão auxílio às empresas quanto as suas necessidades de Servidores, Licenças de Software e TI em geral, quanto a manutenção do projeto de BI.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!--   SOLUÇÕES -->
     <div id="solutions" class="solutions margin-section">
@@ -124,31 +196,32 @@
         <h1 class="title-section text-uppercase font-weight-normal text-center display-6">Sobre nós</h1>
         <div class="row">
           <div class=" ">
-            <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+            <p class="text-justify">Somos uma equipe formada por seletos profissionais, tanto do quadro funcional quanto terceirizados, priorizando a qualidade no serviço prestado e o melhor custo benefício para nossos clientes. </p>
+            <p class="text-justify">Empresa fundada em 2018, temos como premissa a melhoria dos processos gerenciais de nossos clientes. Almejamos ser os pioneiros na revolução administrativa do Vale do Ivaí, melhorando o comércio regional e revelando todo o potencial que nossas empresas possuem.</p>
           </div>
         </div>
         <div>
           <div class="row">
             <div class="col-lg-4 p-3">
               <h3>Missão</h3>
-              <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum.</p>
-              <p><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalMission">...</button></p>
+              <p class="text-justify">Fornecer soluções em gestão da informações...</p>
+              <p><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalMission">Nossa Missão</button></p>
             </div>
             <div class="col-lg-4 p-3">
               <h3>Visão</h3>
-              <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum.</p>
-              <p><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalVision">...</button></p>
+              <p class="text-justify">Ser referência na gestão da informação em todo o Vale do Ivaí...</p>
+              <p><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalVision">Nossa Visão</button></p>
             </div>
             <div class="col-lg-4 p-3">
               <h3>Valores</h3>
-              <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum.</p>
-              <p><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalValues">...</button></p>
+              <p class="text-justify">Solucionadores de problemas: Nosso compromisso é resolver os problemas de....</p>
+              <p><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalValues">Nossos Valores</button></p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Modal`s -->
+      <!-- Modal`s Sobre Nós -->
       <div class="modal fade" id="modalMission" tabindex="-1" role="dialog" aria-labelledby="modalMissionLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -159,7 +232,7 @@
                 </button>
               </div>
               <div class="modal-body">
-                insira seu texto aqui
+                <p>Fornecer soluções em gestão da informações, auxiliando o processo de tomada de decisão.</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
@@ -179,7 +252,7 @@
               </button>
             </div>
             <div class="modal-body">
-              insira seu texto aqui
+              <p>Ser referência na gestão da informação em todo o Vale do Ivaí, introduzindo o paradigma da administração inteligente nos comércios e indústrias locais.</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
@@ -199,7 +272,9 @@
               </button>
             </div>
             <div class="modal-body">
-              insira seu texto aqui
+              <p>• Solucionadores de problemas: Nosso compromisso é resolver os problemas de nossos clientes de forma satisfatória e completa. Desafios são encarados como um estímulo!</p>
+              <p>• A “rapidez” é nosso nome. O desenvolvimento rápido e entregas modulares do projeto garantem um retorno mais rápido ao cliente, garantindo que o produto final apresente o retorno esperado.</p>
+              <p>• Crescemos junto com nossos clientes. O que nos motiva é ver nossos clientes tomarem decisões embasadas em nossas soluções,  que lhes permitam crescer e se desenvolver.</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
@@ -216,14 +291,50 @@
         <h1 class="title-section text-uppercase font-weight-normal text-center display-6">Equipe</h1>
         <div class="row">
 
-          <div class="col-lg-4 offset-lg-4 ">
+          <div class="col-lg-4  ">
             <img class="rounded-circle" src="assets/img/team/ronan.jpg" alt="Ronan" width="140" height="140">
             <h2>Ronan Anacleto</h2>
-            <h5><span class="badge badge-secondary">Desenvolvedor Chefe</span> </h5> 
-            <p>sobre o ronan blablablasblalalbalblablablasbblablablasbblablablasbbl</p>
+            <h5><span class="badge badge-secondary">Consultor em BI</span> </h5> 
+            <p>Mestre em Ciências da Computação pela Universidade Estadual de Londrina. Professor na rede
+            Federal de ensino por dois anos. Hoje ainda exerce atividades docentes porém dedica seu
+            tempo como Consultor e Analista de BI na empresa Fast BI, fundada por ele em 2018.</p>
             <a href="https://www.facebook.com"> <i class="fa fa-facebook-square fa-2x"></i></a>
             <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a>
           </div>
+
+          <div class="col-lg-4  ">
+            <img class="rounded-circle" src="assets/img/team/bruna.png" alt="Ronan" width="140" height="140">
+            <h2>Débora Bruna F. F. Anacleto</h2>
+            <h5><span class="badge badge-secondary">Administradora</span> </h5> 
+            <p>Funcionária de grandes redes como Super Pão e Pernambucanas, possui experiência prática em de
+               atendimento ao público e na aplicação de metodologias de produtividade como estabelecimento de
+                metas de venda. </p>
+            <a href="https://www.facebook.com/deborabruna.2012"> <i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a>
+          </div>
+
+          <div class="col-lg-4  ">
+            <img class="rounded-circle" src="assets/img/team/marcio.jpg" alt="Márcio" width="140" height="140">
+            <h2>Márcio Genciano</h2>
+            <h5><span class="badge badge-secondary">Consultor de Produtividade</span> </h5> 
+            <p>Consultor terceirizado que trabalha na área de Produtividade. Na síntese, seu trabalho eleva
+               o potencial dos Colaboradores através de Metas e acompanhamento semanal da produção. Realiza
+                um Trabalho de Coachee individual ou em grupo.</p>
+            <a href="https://www.facebook.com/vendassssss/"> <i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a>
+          </div>
+
+          <!-- <div class="col-lg-3  ">
+            <img class="rounded-circle" src="assets/img/team/marcelo.jpg" alt="Marcelo" width="140" height="140">
+            <h2>Marcelo S. Cavassani</h2>
+            <h5><span class="badge badge-secondary">Desenvolvedor Web</span> </h5> 
+            <p>Mestre em Ciências da Computação pela Universidade Estadual de Londrina. Professor na rede
+            Federal de ensino por dois anos. Hoje ainda exerce atividades docentes porém dedica seu
+            tempo como Consultor e Analista de BI na empresa Fast BI, fundada por ele em 2018.</p>
+            <a href="https://github.com/cavassani"> <i class="fa fa-github-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/marcelo-sanches-cavassani-52249351/"> <i class="fa fa-linkedin-square fa-2x"></i></a>
+          </div> -->
+
 
         </div>
       </div>
