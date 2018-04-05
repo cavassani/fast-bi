@@ -62,7 +62,7 @@
             <img class="card-img-top" src="assets/img/service-icons/target_audience.svg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Consultoria Gerencial</h4>
-              <p class="card-text">Nossa empresa presta assistência ao gestores na elaboração de KPIs, definição de métricas e gráficos.</p>
+              <!-- <p class="card-text">Nossa empresa presta assistência ao gestores na elaboração de KPIs, definição de métricas e gráficos.</p> -->
             </div>
             <div class="card-footer text-muted">
             <a class="btn btn-outline-primary" data-toggle="modal" data-target="#modalConsultoria">Saiba mais</a>
@@ -73,7 +73,7 @@
             <img class="card-img-top" src="assets/img/service-icons/se_bench.svg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Ferramentas Analíticas</h4>
-              <p class="card-text">Desenvolvimento soluções tecnológicas que auxiliem na gestão da informação de sua empresa.</p>
+              <!-- <p class="card-text">Desenvolvimento soluções tecnológicas que auxiliem na gestão da informação de sua empresa.</p> -->
 
             </div>
             <div class="card-footer text-muted">
@@ -85,7 +85,7 @@
             <img class="card-img-top" src="assets/img/service-icons/hosting_service.svg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Gerenciamento de Serviços</h4>
-              <p class="card-text">Contamos com profissionais responsáveis que prestarão auxílio às empresas quanto as suas necessidades de Servidores.</p>
+              <!-- <p class="card-text">Contamos com profissionais responsáveis que prestarão auxílio às empresas quanto as suas necessidades de Servidores.</p> -->
             </div>
             <div class="card-footer text-muted">
               <a class="btn btn-outline-primary" data-toggle="modal" data-target="#modalGerencia">Saiba mais</a>
