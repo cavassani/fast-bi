@@ -51,7 +51,7 @@ html, body {
 .image-intro {
     height: 100%;
     overflow-y: auto; /* a value of 'scroll' will force scrollbars, even if they aren't necessary. This is cleaner.*/
-    background-image: url(../img/fastbitop.webp);
+    background-image: url(../img/fastbitop.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;

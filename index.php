@@ -58,36 +58,36 @@
       <div class="container">
         <h1 class="title-section text-uppercase font-weight-normal text-center display-6">Serviços</h1>
         <div class="row card-deck">
-          <div class="card text-center border-primary " >
+          <div class="card text-center border-secondary " >
             <img class="card-img-top" src="assets/img/service-icons/target_audience.svg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Consultoria Gerencial</h4>
               <!-- <p class="card-text">Nossa empresa presta assistência ao gestores na elaboração de KPIs, definição de métricas e gráficos.</p> -->
             </div>
-            <div class="card-footer text-muted">
+            <div class="card-footer ">
             <a class="btn btn-outline-primary" data-toggle="modal" data-target="#modalConsultoria">Saiba mais</a>
              </div>
           </div>
 
-          <div class="card text-center border-primary" >
+          <div class="card text-center border-secondary" >
             <img class="card-img-top" src="assets/img/service-icons/se_bench.svg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Ferramentas Analíticas</h4>
               <!-- <p class="card-text">Desenvolvimento soluções tecnológicas que auxiliem na gestão da informação de sua empresa.</p> -->
 
             </div>
-            <div class="card-footer text-muted">
+            <div class="card-footer ">
             <a class="btn btn-outline-primary" data-toggle="modal" data-target="#modalFerramenta">Saiba mais</a>
              </div>
           </div>
 
-          <div class="card text-center border-primary">
+          <div class="card text-center border-secondary">
             <img class="card-img-top" src="assets/img/service-icons/hosting_service.svg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Gerenciamento de Serviços</h4>
               <!-- <p class="card-text">Contamos com profissionais responsáveis que prestarão auxílio às empresas quanto as suas necessidades de Servidores.</p> -->
             </div>
-            <div class="card-footer text-muted">
+            <div class="card-footer ">
               <a class="btn btn-outline-primary" data-toggle="modal" data-target="#modalGerencia">Saiba mais</a>
             </div>
           </div>
@@ -293,35 +293,35 @@
 
           <div class="col-lg-4  ">
             <img class="rounded-circle" src="assets/img/team/ronan.jpg" alt="Ronan" width="140" height="140">
-            <h2>Ronan Anacleto</h2>
+            <h3>Ronan Anacleto</h3>
             <h5><span class="badge badge-secondary">Consultor em BI</span> </h5> 
             <p>Mestre em Ciências da Computação pela Universidade Estadual de Londrina. Professor na rede
             Federal de ensino por dois anos. Hoje ainda exerce atividades docentes porém dedica seu
             tempo como Consultor e Analista de BI na empresa Fast BI, fundada por ele em 2018.</p>
-            <a href="https://www.facebook.com"> <i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://www.facebook.com/ronan.anacleto?ref=br_rs"> <i class="fa fa-facebook-square fa-2x" style="color: #00AFEF;" ></i></a>
+            <!-- <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a> -->
           </div>
 
           <div class="col-lg-4  ">
-            <img class="rounded-circle" src="assets/img/team/bruna.png" alt="Ronan" width="140" height="140">
-            <h2>Débora Bruna F. F. Anacleto</h2>
+            <img class="rounded-circle" src="assets/img/team/bruna.jpg" alt="Ronan" width="140" height="140">
+            <h3>Débora Bruna F. F. Anacleto</h3>
             <h5><span class="badge badge-secondary">Administradora</span> </h5> 
             <p>Funcionária de grandes redes como Super Pão e Pernambucanas, possui experiência prática em de
                atendimento ao público e na aplicação de metodologias de produtividade como estabelecimento de
                 metas de venda. </p>
-            <a href="https://www.facebook.com/deborabruna.2012"> <i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://www.facebook.com/deborabruna.2012"> <i class="fa fa-facebook-square fa-2x" style="color: #00AFEF;"></i></a>
+            <!-- <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a> -->
           </div>
 
           <div class="col-lg-4  ">
             <img class="rounded-circle" src="assets/img/team/marcio.jpg" alt="Márcio" width="140" height="140">
-            <h2>Márcio Genciano</h2>
+            <h3>Márcio Genciano</h3>
             <h5><span class="badge badge-secondary">Consultor de Produtividade</span> </h5> 
             <p>Consultor terceirizado que trabalha na área de Produtividade. Na síntese, seu trabalho eleva
                o potencial dos Colaboradores através de Metas e acompanhamento semanal da produção. Realiza
                 um Trabalho de Coachee individual ou em grupo.</p>
-            <a href="https://www.facebook.com/vendassssss/"> <i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://www.facebook.com/vendassssss/"> <i class="fa fa-facebook-square fa-2x" style="color: #00AFEF;"></i></a>
+            <!-- <a href="https://br.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x"></i></a> -->
           </div>
 
           <!-- <div class="col-lg-3  ">
