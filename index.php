@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Site da empresa Fast BI, empresa com foco em Bussiness Inteligence." />
     <meta name="robots" content="all" />
-    <meta name="keywords" content="sites, web, desenvolvimento, Bussiness, Inteligence, Fast, Negocios, inteligencia, BI">
+    <meta name="keywords" content="sites, web, desenvolvimento, Bussiness, Inteligence, Fast, Negocios, inteligencia, BI,Pentaho, Agile BI, Relatório, Fast BI">
     <META NAME="LANGUAGE" CONTENT="Pt-Br" >
 
 
