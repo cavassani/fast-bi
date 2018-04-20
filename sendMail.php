@@ -24,12 +24,12 @@ if($name != null && $email != null && $message != null){
         //Server settings
         $mail->SMTPDebug = 0;                                 // Enable verbose debug output with valor 2
         $mail->isSMTP();                                      // Set mailer to use SMTP
-        $mail->Host = 'host.superdominiosparking.org';  // Specify main and backup SMTP servers
-        $mail->SMTPAuth = true;                               // Enable SMTP authentication
+        $mail->Host = 'smtp.umbler.com';  // Specify main and backup SMTP servers
+        $mail->SMTPAuth = false;                               // Enable SMTP authentication
         $mail->Username = 'contato@fastbi.com.br';                 // SMTP username
         $mail->Password = '16061993Rr';                           // SMTP password
-        $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-        $mail->Port = 465;                                    // TCP port to connect to
+        $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+        $mail->Port = 587;                                    // TCP port to connect to
 
         //Recipients
         $mail->setFrom('contato@fastbi.com.br', $name);
