@@ -25,7 +25,7 @@ if($name != null && $email != null && $message != null){
         $mail->SMTPDebug = 0;                                 // Enable verbose debug output with valor 2
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = 'smtp.umbler.com';  // Specify main and backup SMTP servers
-        $mail->SMTPAuth = false;                               // Enable SMTP authentication
+        $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'contato@fastbi.com.br';                 // SMTP username
         $mail->Password = '16061993Rr';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
