@@ -232,3 +232,9 @@ html, body {
     visibility: hidden;
   }
 }
+
+@media (min-width : 1500px) {
+  .chevron-margin-top {
+    margin-top: 305px;
+  }
+}
