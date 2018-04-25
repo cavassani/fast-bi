@@ -374,9 +374,10 @@
           <div class="bi-info">
             <hr>
             <ul>
-              <li><i class="fa fa-road"></i> Rua Manoel Pereira. 162. Lidianópolis, Paraná </li>
-              <!-- <li><i class="fa fa-phone"></i> (555) 555-5555</li> -->
+              <li><i class="fa fa-home"></i> Rua Manoel Pereira, 162.  </li>
+              <li><i class="fa fa-map-marker"></i> Lidianópolis, Paraná</li>
               <li><i class="fa fa-envelope"></i> contato@fastbi.com.br</li>
+              <li><i class="fa fa-phone"></i> (43) 99692-2801</li>
             </ul>
             <hr>
             <div class="img-logo-contact">
