@@ -22,7 +22,8 @@ html, body {
  */
 
 .site-header {
-  background-color: rgba(0, 175, 239, 0.72);
+  /* background-color: rgba(0, 175, 239, 0.72); */
+  background-color: rgba(0,82,125,0.7);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backface-visibility: saturate(180%) blur(20px);
 }
@@ -36,6 +37,17 @@ html, body {
 }
 .brand {
     font-weight: bold;
+}
+.navbar-brand {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+}
+
+.img-responsive2 {
+  display: inline-block;
+  max-width: 46%;
+  height: auto;
 }
 
 /*
@@ -177,6 +189,9 @@ html, body {
 }
 .pentahoo-margin {
   margin-top:1em;
+}
+.card-deck {
+  height: 350px;
 }
 
 /*
