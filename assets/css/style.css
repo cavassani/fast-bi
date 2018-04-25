@@ -183,7 +183,8 @@ html, body {
 */
 .solutions
 {
-  background-color: rgb(201, 230, 255);
+  /* background-color: rgb(201, 230, 255); */
+  background-color: #e6f8ff;
   padding-bottom: 2em;
   padding-top: 2em;
 }
@@ -198,9 +199,35 @@ html, body {
 * CONTACT
 */
 
-.contact {
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.wrapper > *{
+  padding: 1em;
+}
+
+.bi-info{
+  background:#356f95;
+}
+
+.bi-info h3, .bi-info ul{
+  text-align: center;
+  margin:0 0 1rem 0;
+  list-style: none;
+  padding: 0;
+}
+.bi-info img {
+  width: 100%;
+  padding-top: 420px;
+}
+.contact{
+  background:#f9feff;
+  padding-top: 2em;
+}
+/* .contact {
   /*background-color: rgb(201, 230, 255);*/
-  background-color: #e6f8ff;
+  /* background-color: #e6f8ff; */
   /* background-image: url(../img/contact.jpg) ;
 
   background-repeat: no-repeat;
@@ -210,11 +237,123 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  backface-visibility: saturate(180%) blur(20px); */
-}
+  backface-visibility: saturate(180%) blur(20px); 
+} */
 .xxx{
   box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
 }
+
+.contact-bi form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+
+.contact-bi form label{
+  display:block;
+}
+
+.contact-bi form p{
+  margin:0;
+}
+
+.contact-bi form .full{
+  grid-column: 1 / 3;
+}
+
+.contact-bi form button, .contact-bi form input, .contact-bi form textarea{
+  width:100%;
+  padding: 0.5em;
+  border:1px solid #c9e6ff;
+}
+
+.contact-bi form button{
+  background:#c9e6ff;
+  border:0;
+  text-transform: uppercase;
+}
+
+.contact-bi form button:hover,.contact-bi form button:focus{
+  background:#92bde7;
+  color:#fff;
+  outline:0;
+  transition: background-color 2s ease-out;
+}
+
+/* checkbox */
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 1.25em; height: 1.25em;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: .2em; left: .100em;
+  /* top: .2em; left: .275em; */
+  font-size: 1.4em;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 2px dotted blue;
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 2px solid #4778d9!important;
+}
+
+
+
 /*
  * Extra utilities
  */
@@ -241,7 +380,20 @@ html, body {
 }
 
 .overflow-hidden { overflow: hidden; }
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
 
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul{
+    text-align: left;
+  }
+}
 @media (max-width: 680px) {
   #chevron-sector {
     visibility: hidden;

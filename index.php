@@ -348,7 +348,95 @@
     </div>
 
     <!--CONTATOS -->
+
     <div id="contact" class="contact margin-section-top">
+
+      <div class="container p-3">
+        <div class="wrapper">
+          <div class="bi-info">
+            <hr>
+            <ul>
+              <li><i class="fa fa-road"></i> Rua Manoel Pereira. 162. </li>
+              <li><i class="fa fa-home"></i> Lidianópolis, Paraná</li>
+              <!-- <li><i class="fa fa-phone"></i> (555) 555-5555</li> -->
+              <li><i class="fa fa-envelope"></i> contato@fastbi.com.br</li>
+            </ul>
+            <hr>
+            <div class="img-logo-contact">
+              <img src="assets/img/contact-logo.png" alt="Fast BI">
+            </div>
+          </div>
+
+        <div class="contact-bi">
+          <h3>Contate-nos</h3>
+          <form id="formcontact" class="needs-validation"  novalidate>
+            <p>
+              <label for="Name">Nome</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="nome"  required>
+              <div class="invalid-feedback">
+                Por favor digite seu nome.
+              </div>
+            <p>
+              <label for="phone">Telefone</label>
+              <input type="text" class="form-control" id="phone" name="phone" placeholder="Tel."  required>
+              <div class="invalid-feedback">
+                por favor digite seu telefone.
+              </div>
+            </p>
+            <p class="full">
+              <label for="email">E-mail</label>
+              <input type="text" class="form-control" id="email" name="email" placeholder="E-mail"  required>
+              <div class="invalid-feedback">
+                Por favor digite seu e-mail.
+              </div>
+            </p>
+            <p>
+              <div class="form-group">
+                <label class="text-inverse" for="select-menu">Motivo de Contato</label>
+                <select class="custom-select d-block form-control" name="select" id="select" required style="width: 200px;">
+                  <option value="">Selecione um item</option>
+                  <option value="Orçamento">Orçamento</option>
+                  <option value="Visita">Visita</option>
+                  <option value="Outro">Outro</option>
+                </select>
+                  <div class="invalid-feedback">
+                    Por favor selecione uma opção de motivo de contato.
+                  </div>
+              </div> 
+            </p>
+
+            <p class="full">
+              <!-- <div class="form-group"> -->
+                <label for="exampleFormControlTextarea1">Mensagem</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                <div class="invalid-feedback">
+                  Escreva uma mensagem.
+                </div>
+              <!-- </div> -->
+            </p>
+            <p >
+            <!-- <div class="form-group"> -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="terms"  id="invalidCheck" required style="width: 7%;">
+                <label class="form-check-label" for="invalidCheck">
+                  Aceito termos e condições
+                </label>
+                <div class="invalid-feedback">
+                  Voçê deve aceitar para enviar a mensagem.
+                </div>
+              <!-- </div> -->
+            </div>
+            </p>
+            <p class="full">
+              <button  id="btn-send" type="submit" >Enviar</button>
+            </p>
+            <div id="msg"></div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+    <!-- <div id="contact" class="contact margin-section-top">
 
       <div  class="container p-3  ">
         <div class="col-md-8 p-3 offset-lg-2  col-sm-12 col-12 border rounded xxx " style="background:#f1f1f1;">
@@ -421,8 +509,9 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
 
+  <!-- FOOTER  -->
     <footer class="container py-1">
       <div class="row">
         <div class="col-12 col-md d-block text-center">
